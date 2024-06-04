@@ -1,4 +1,4 @@
-name: scrapping_karyakarsa
+name: scrapping_pubmed
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     
 jobs:
-  scrapping_karyakarsa:
+  scrapping_pubmed:
     runs-on: macOS-latest
     env:
       ATLAS_URL: ${{ secrets.ATLAS_URL }}
@@ -23,5 +23,5 @@ jobs:
         install.packages("tidyverse", dependencies = TRUE)
         install.packages("mongolite")
       shell: Rscript {0} 
-    - name: scrapping_karyakarsa
-      run: Rscript Scrapping Karyakarsa.R
+    - name: scrapping_pubmed
+      run: Rscript scrapping_pubmed.R
