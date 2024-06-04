@@ -21,9 +21,9 @@ scrape_pubmed <- function(url) {
   page <- GET(url)
   if (status_code(page) == 200) {
     page_content <- read_html(content(page, "text"))
-    titles <- page_content %>% html_nodes(".docsum-title") %>% html_text(trim = TRUE)
-    links <- page_content %>% html_nodes(".docsum-title") %>% html_attr("href")
-    authors <- page_content %>% html_nodes(".docsum-authors") %>% html_text(trim = TRUE)
+    titles <- page_content %>% html_nodes(".docsum-title") %>% html_text(trim = TRUE) %>% head(10)
+    links <- page_content %>% html_nodes(".docsum-title") %>% html_attr("href") %>% head(10)
+    authors <- page_content %>% html_nodes(".docsum-authors") %>% html_text(trim = TRUE) %>% head(10)
     data <- data.frame(
       title = titles,
       author = authors,
