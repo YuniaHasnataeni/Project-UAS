@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 1 * * *'
   workflow_dispatch:
-    
+
 jobs:
   scrapping_pubmed:
     runs-on: macOS-latest
@@ -16,12 +16,12 @@ jobs:
     - name: Start time
       run: echo "$(date) ** $(TZ=Asia/Jakarta date)"
     - uses: actions/checkout@v3
-    - uses: r-lib/actions/setup-r@v2   
-    - name: Install packages
+    - uses: r-lib/actions/setup-r@v2
+    - name: Install R packages
       run: |
         install.packages("rvest", dependencies = TRUE)
-        install.packages("tidyverse", dependencies = TRUE)
-        install.packages("mongolite")
-      shell: Rscript {0} 
-    - name: scrapping_pubmed
+        install.packages("httr", dependencies = TRUE)
+        install.packages("mongolite", dependencies = TRUE)
+      shell: Rscript {0}
+    - name: Run scrapping script
       run: Rscript scrapping_pubmed.R
