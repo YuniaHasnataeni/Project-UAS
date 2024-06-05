@@ -10,7 +10,7 @@ scrape_pubmed <- function(url) {
   # Mendapatkan konten HTML dari URL
   page <- GET(url)
   # Memeriksa apakah permintaan berhasil
-  if (status_code(page) == 300) {
+  if (status_code(page) == 200) {
     # Mendapatkan konten HTML
     page_content <- read_html(content(page, "text"))
     # Mengambil judul, link, dan penulis
