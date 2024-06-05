@@ -37,38 +37,46 @@ scrape_pubmed <- function(url) {
   }
 }
 
+# Fungsi untuk memeriksa dan memasukkan data ke MongoDB
+insert_to_mongo <- function(data, mongo_conn) {
+  for (i in 1:nrow(data)) {
+    article <- data[i, ]
+    existing <- mongo_conn$find(paste0('{"link": "', article$link, '"}'))
+    if (nrow(existing) == 0) {
+      mongo_conn$insert(article)
+    }
+  }
+}
+
 # Membaca nomor halaman terakhir
 last_page <- read_last_page()
 
-# URL halaman PubMed dengan pencarian "SVM" dan halaman tertentu
-url <- paste0("https://pubmed.ncbi.nlm.nih.gov/?term=SVM&page=", last_page)
+# Batas maksimal halaman yang ingin diambil
+max_pages <- 20 # Ubah sesuai kebutuhan
 
-# Memanggil fungsi untuk melakukan scraping
-pubmed_data <- scrape_pubmed(url)
-if (!is.null(pubmed_data)) {
-  print(pubmed_data)
+# Membuat koneksi ke MongoDB Atlas
+atlas_conn <- mongo(
+  collection = Sys.getenv("ATLAS_COLLECTION"),
+  db         = Sys.getenv("ATLAS_DB"),
+  url        = Sys.getenv("ATLAS_URL")
+)
+
+# Looping untuk mengambil beberapa halaman
+for (i in last_page:(last_page + max_pages - 1)) {
+  url <- paste0("https://pubmed.ncbi.nlm.nih.gov/?term=SVM&page=", i)
+  pubmed_data <- scrape_pubmed(url)
   
-  # MONGODB
-  message('Input Data to MongoDB Atlas')
-  
-  # Membuat koneksi ke MongoDB Atlas
-  atlas_conn <- mongo(
-    collection = Sys.getenv("ATLAS_COLLECTION"),
-    db         = Sys.getenv("ATLAS_DB"),
-    url        = Sys.getenv("ATLAS_URL")
-  )
-  
-  # Memasukkan data ke MongoDB Atlas
-  atlas_conn$insert(pubmed_data)
-  
-  # Menutup koneksi setelah selesai
-  rm(atlas_conn)
-  
-  # Memperbarui nomor halaman terakhir
-  write_last_page(last_page + 1)
-} else {
-  print("Tidak ada data untuk dimasukkan ke MongoDB.")
+  if (!is.null(pubmed_data) && nrow(pubmed_data) > 0) {
+    insert_to_mongo(pubmed_data, atlas_conn)
+    write_last_page(i) # Update nomor halaman terakhir
+  } else {
+    print(paste("Tidak ada data pada halaman", i))
+    break # Berhenti jika tidak ada data
+  }
 }
 
+# Menutup koneksi setelah selesai
+rm(atlas_conn)
+
 # Membuang variabel yang tidak diperlukan
-rm(url, scrape_pubmed, last_page, pubmed_data, read_last_page, write_last_page)
+rm(url, scrape_pubmed, last_page, read_last_page, write_last_page, pubmed_data, insert_to_mongo, max_pages)
