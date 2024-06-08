@@ -67,4 +67,4 @@ Berikut merupakan link Rpubs visualisasi data:
 Berikut adalah link PPT:
 
 ## Pengembang
-+ [Yunia Hasnataeni](https://github.com/YuniaHasnataeni) - G1501231074
+[Yunia Hasnataeni](https://github.com/YuniaHasnataeni) - G1501231074
