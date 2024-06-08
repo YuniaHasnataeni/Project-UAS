@@ -27,4 +27,13 @@
 
 </div>
 
+## :Book: Tentang
+
+**Apa sih PubMed itu?**
+
+<p align="justify">
+PubMed adalah sumber daya gratis yang mendukung pencarian literatur ilmiah dalam bidang biomedis dan kesehatan. PubMed mencakup lebih dari 30 juta kutipan dan abstrak dari artikel jurnal biomedis. Ini adalah alat penting bagi para peneliti, dokter, dan profesional kesehatan untuk menemukan penelitian terbaru dan informasi medis yang relevan.
+</p>
+
+
 
