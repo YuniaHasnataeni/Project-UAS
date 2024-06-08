@@ -27,7 +27,7 @@
 
 </div>
 
-## :<img width="10%" src="https://github.com/YuniaHasnataeni/Project-UAS/blob/main/logo.png"> : Tentang
+## Tentang <img width="10%" src="https://github.com/YuniaHasnataeni/Project-UAS/blob/main/logo.png"> : 
 
 **Apa sih PubMed itu?**
 
