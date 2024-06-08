@@ -42,7 +42,7 @@ Pada project ini, saya melakukan scraping pada situs web https://pubmed.ncbi.nlm
 </p>
 
 <p align="justify">
-Dengan melakukan scraping data dari PubMed, kita bisa mendapatkan berbagai informasi penting seperti judul artikel, link, dan penulis. Data ini sangat berguna untuk keperluan penelitian, review literatur, dan analisis tren penggunaan SVM dalam berbagai bidang biomedis dan kesehatan.
+Dengan melakukan scraping data dari PubMed, kita bisa mendapatkan berbagai informasi penting seperti id, judul artikel jurnal, penulis, dan link. Data ini sangat berguna untuk keperluan penelitian, review literatur, dan analisis tren penggunaan SVM dalam berbagai bidang biomedis dan kesehatan.
 </p>
 </div>
 
