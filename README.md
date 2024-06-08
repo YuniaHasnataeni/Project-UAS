@@ -46,4 +46,16 @@ Dengan melakukan scraping data dari PubMed, kita bisa mendapatkan berbagai infor
 </p>
 </div>
 
+## MongoDB
 
+Berikut adalah salah satu contoh dokumen di MongoDB untuk artikel PubMed dengan metode SVM:
+```mongodb
+{
+  "_id": {
+    "$oid": "665fdaabbf2c72d2a006cf91"
+  },
+  "title": "Applications of Support Vector Machine (SVM) Learning in Cancer Genomics.",
+  "author": "Huang S, Cai N, Pacheco PP, Narrandes S, Wang Y, Xu W.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/29275361/"
+}
+```
