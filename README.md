@@ -9,4 +9,20 @@
 
 <p align="center">
 
-    
+# 📖: Menu
+
+</p>
+
+[Tentang](#)
+•
+[Deskripsi](#writing_hand-deskripsi-project)
+•
+[Dokumen](#books-dokumen)
+•
+[Visualisasi Data](#bar_chart-visualisasi-data-scraping)
+•
+[PPT](#computer-PPT)
+•
+[Pengembang](#panda_face-pengembang)
+
+</div>
