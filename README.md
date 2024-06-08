@@ -27,7 +27,7 @@
 
 </div>
 
-## :Book: Tentang
+## :<img width="10%" src="https://github.com/YuniaHasnataeni/Project-UAS/blob/main/logo.png"> : Tentang
 
 **Apa sih PubMed itu?**
 
