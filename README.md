@@ -13,7 +13,7 @@
 
 </p>
 
-[Tentang](#)
+[Tentang](#Book-Tentang)
 •
 [Deskripsi](#)
 •
