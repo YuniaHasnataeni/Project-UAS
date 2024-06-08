@@ -59,4 +59,12 @@ Berikut adalah salah satu contoh dokumen di MongoDB untuk artikel PubMed dengan 
   "link": "https://pubmed.ncbi.nlm.nih.gov/29275361/"
 }
 ```
+## RPubs
+Berikut merupakan link Rpubs visualisasi data: 
 
+
+## PPT
+Berikut adalah link PPT:
+
+## Pengembang
++ [Yunia Hasnataeni](https://github.com/rizkyardhani/) - G1501231074
