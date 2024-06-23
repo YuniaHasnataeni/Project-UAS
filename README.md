@@ -13,7 +13,7 @@
 
 </p>
 
-[Tentang](#ℹ️ Tentang  )
+[Tentang](#information_source-Tentang  )
 •
 [Deskripsi](#Deskripsi)
 •
@@ -27,7 +27,7 @@
 
 </div>
 
-## ℹ️ Tentang  
+## ℹ️ Tentang  :inf:
 
 **Apa sih PubMed itu?**
 
