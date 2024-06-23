@@ -13,17 +13,17 @@
 
 </p>
 
-[Tentang](#ℹ️: Tentang)
+[Tentang](#Tentang)
 •
-[Deskripsi](#📝: Deskripsi)
+[Deskripsi](#Deskripsi)
 •
-[MongoDB](#💾: MongoDB)
+[MongoDB](#MongoDB)
 •
-[RPubs](#📊: RPubs)
+[RPubs](#RPubs)
 •
-[PPT](#📂: PPT)
+[PPT](#PPT)
 •
-[Pengembang](#👤: Pengembang)
+[Pengembang](#Pengembang)
 
 </div>
 
