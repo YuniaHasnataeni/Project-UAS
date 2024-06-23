@@ -13,17 +13,17 @@
 
 </p>
 
-[Tentang](#Tentang)
+[Tentang](#ℹ️: Tentang)
 •
-[Deskripsi](#Deskripsi)
+[Deskripsi](#📝: Deskripsi)
 •
-[MongoDB](#MongoDB)
+[MongoDB](#💾: MongoDB)
 •
-[RPubs](#RPubs)
+[RPubs](#📊: RPubs)
 •
-[PPT](#PPT)
+[PPT](#📂: PPT)
 •
-[Pengembang](#Pengembang)
+[Pengembang](#👤: Pengembang)
 
 </div>
 
@@ -60,11 +60,11 @@ Berikut adalah salah satu contoh dokumen di MongoDB untuk artikel PubMed dengan 
 }
 ```
 ## 📊: RPubs
-Berikut merupakan link Rpubs visualisasi data: 
+Berikut merupakan link Rpubs visualisasi data: https://rpubs.com/Yunia_Hasnataeni/Tugas_Scraping
 
 
 ## 📂: PPT
-Berikut adalah link PPT:
+Berikut adalah link PPT: https://www.canva.com/design/DAGHqFZug3o/_bb4XZcqD6r-LAidnMl4Bw/view?utm_content=DAGHqFZug3o&utm_campaign=designshare&utm_medium=link&utm_source=editor 
 
 ## 👤: Pengembang
 [Yunia Hasnataeni](https://github.com/YuniaHasnataeni) - G1501231074
