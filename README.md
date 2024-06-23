@@ -23,11 +23,11 @@
 •
 [PPT](#open_file_folder-PPT)
 •
-[Pengembang](## bust_in_silhouette-Pengembang)
+[Pengembang](#bust_in_silhouette-Pengembang)
 
 </div>
 
-## ℹ️ Tentang  
+## :information_source: Tentang  
 
 **Apa sih PubMed itu?**
 
