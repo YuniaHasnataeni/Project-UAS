@@ -35,7 +35,7 @@
 PubMed adalah sumber daya gratis yang mendukung pencarian literatur ilmiah dalam bidang biomedis dan kesehatan. PubMed mencakup lebih dari 30 juta kutipan dan abstrak dari artikel jurnal biomedis. Ini adalah alat penting bagi para peneliti, dokter, dan profesional kesehatan untuk menemukan penelitian terbaru dan informasi medis yang relevan.
 </p>
 
-## 📝 Deskripsi
+## :pencil: Deskripsi
 
 <p align="justify">
 Pada project ini, saya melakukan scraping pada situs web https://pubmed.ncbi.nlm.nih.gov/ untuk mengumpulkan artikel jurnal yang menggunakan metode Support Vector Machine (SVM). SVM adalah salah satu metode pembelajaran mesin yang sangat populer dan digunakan untuk klasifikasi dan regresi. Tujuan utama dari scraping ini adalah untuk mengumpulkan data penelitian terbaru yang menggunakan metode SVM dan memudahkan analisis data dari berbagai studi yang dipublikasikan.
@@ -46,7 +46,7 @@ Dengan melakukan scraping data dari PubMed, kita bisa mendapatkan berbagai infor
 </p>
 </div>
 
-## 💾 MongoDB
+## :floppy_disk: MongoDB
 
 Berikut adalah salah satu contoh dokumen di MongoDB untuk artikel PubMed dengan metode SVM:
 ```mongodb
@@ -59,12 +59,12 @@ Berikut adalah salah satu contoh dokumen di MongoDB untuk artikel PubMed dengan 
   "link": "https://pubmed.ncbi.nlm.nih.gov/29275361/"
 }
 ```
-## 📊 RPubs
+## :bar_chart: RPubs
 Berikut merupakan link Rpubs visualisasi data: https://rpubs.com/Yunia_Hasnataeni/Tugas_Scraping
 
 
-## 📂 PPT
+## :open_file_folder: PPT
 Berikut adalah link PPT: https://www.canva.com/design/DAGHqFZug3o/_bb4XZcqD6r-LAidnMl4Bw/view?utm_content=DAGHqFZug3o&utm_campaign=designshare&utm_medium=link&utm_source=editor 
 
-## 👤 Pengembang 
+## :bust_in_silhouette: Pengembang 
 [Yunia Hasnataeni](https://github.com/YuniaHasnataeni) - G1501231074
