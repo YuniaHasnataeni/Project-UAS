@@ -13,17 +13,17 @@
 
 </p>
 
-[Tentang](##information_source-Tentang)
+[Tentang](## information_source-Tentang)
 •
-[Deskripsi](##pencil-Deskripsi)
+[Deskripsi](## pencil-Deskripsi)
 •
-[MongoDB](##floppy_disk-MongoDB)
+[MongoDB](## floppy_disk-MongoDB)
 •
-[RPubs](##bar_chart-RPubs)
+[RPubs](## bar_chart-RPubs)
 •
-[PPT](##open_file_folder-PPT)
+[PPT](## open_file_folder-PPT)
 •
-[Pengembang](##bust_in_silhouette-Pengembang)
+[Pengembang](## bust_in_silhouette-Pengembang)
 
 </div>
 
