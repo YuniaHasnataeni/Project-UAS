@@ -13,21 +13,21 @@
 
 </p>
 
-[Tentang](#information_source-Tentang  )
+[Tentang](#information_source-Tentang)
 •
-[Deskripsi](#Deskripsi)
+[Deskripsi](#pencil-Deskripsi)
 •
-[MongoDB](#MongoDB)
+[MongoDB](#floppy_disk-MongoDB)
 •
-[RPubs](#RPubs)
+[RPubs](#bar_chart-RPubs)
 •
-[PPT](#PPT)
+[PPT](#open_file_folder-PPT)
 •
-[Pengembang](#Pengembang)
+[Pengembang](#bust_in_silhouette-Pengembang)
 
 </div>
 
-## ℹ️ Tentang  :inf:
+## ℹ️ Tentang  
 
 **Apa sih PubMed itu?**
 
@@ -66,5 +66,5 @@ Berikut merupakan link Rpubs visualisasi data: https://rpubs.com/Yunia_Hasnataen
 ## 📂 PPT
 Berikut adalah link PPT: https://www.canva.com/design/DAGHqFZug3o/_bb4XZcqD6r-LAidnMl4Bw/view?utm_content=DAGHqFZug3o&utm_campaign=designshare&utm_medium=link&utm_source=editor 
 
-## 👤 Pengembang
+## 👤 Pengembang 
 [Yunia Hasnataeni](https://github.com/YuniaHasnataeni) - G1501231074
