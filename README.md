@@ -64,7 +64,7 @@ Berikut merupakan link Rpubs visualisasi data: https://rpubs.com/Yunia_Hasnataen
 
 
 ## :open_file_folder: PPT
-Berikut adalah link PPT: https://www.canva.com/design/DAGHqFZug3o/_bb4XZcqD6r-LAidnMl4Bw/view?utm_content=DAGHqFZug3o&utm_campaign=designshare&utm_medium=link&utm_source=editor 
+Berikut adalah link PPT: https://www.canva.com/design/DAGI886G01k/womwh_XOYf_PJ5GExQhvhQ/view?utm_content=DAGI886G01k&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 ## :bust_in_silhouette: Pengembang 
 [Yunia Hasnataeni](https://github.com/YuniaHasnataeni) - G1501231074
